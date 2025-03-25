@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ProductFeatureModule } from './product-feature/product-feature.module';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    ProductsComponent,
     //ProductComponent
   ],
   imports: [
